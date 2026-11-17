@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student and Employee Portal</title>
+</head>
+
+<body>
+
+<!-- Header -->
+<header>
+    <h1>Student and Employee Information Portal</h1>
+    <h2>KL University</h2>
+    <p>Welcome to Our University</p>
+</header>
+
+<hr>
+
+<!-- Navigation -->
+<nav>
+    <a href="#student">Student Details</a> |
+    <a href="#employee">Employee Details</a> |
+    <a href="#registration">Registration</a>
+</nav>
+
+<hr>
+
+<main>
+
+<!-- Student Information -->
+<section id="student">
+
+    <h2>Student Information</h2>
+
+    <article>
+        <h3>Student Details</h3>
+
+        <img src="student.jpg" alt="Student Image" width="100">
+
+        <p><b>Name:</b> Ravi Kumar</p>
+        <p><strong>Roll Number:</strong> 240001</p>
+        <p><i>Course:</i> B.Tech CSE</p>
+        <p><u>College:</u> KL University</p>
+        <p>CGPA: <mark>9.2</mark></p>
+        <p>Year: 3<sup>rd</sup> Year</p>
+        <p>Fee: <del>5000</del> Paid</p>
+        <p><small>Student information updated.</small></p>
+
+        <h3>Student Skills</h3>
+
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML</li>
+        </ul>
+
+        <h3>Student Hobbies</h3>
+
+        <ol>
+            <li>Reading</li>
+            <li>Playing Cricket</li>
+            <li>Listening to Music</li>
+        </ol>
+
+        <a href="https://www.kluniversity.in">
+            Visit University Website
+        </a>
+
+    </article>
+</section>
+
+<hr>
+
+<!-- Employee Information -->
+<section id="employee">
+
+    <h2>Employee Information</h2>
+
+    <article>
+        <h3>Employee Details</h3>
+
+        <p><b>Name:</b> Suresh Kumar</p>
+        <p><b>Employee ID:</b> EMP101</p>
+        <p><b>Designation:</b> Assistant Professor</p>
+        <p><b>Department:</b> Computer Science</p>
+
+        <h3>Employee Salary Details</h3>
+
+        <table border="1">
+
+            <caption>Employee Salary Table</caption>
+
+            <thead>
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>EMP101</td>
+                    <td>Suresh</td>
+                    <td>50000</td>
+                </tr>
+
+                <tr>
+                    <td>EMP102</td>
+                    <td>Ramesh</td>
+                    <td>45000</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total Salary</td>
+                    <td>95000</td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </article>
+
+    <aside>
+        <h3>Important Notice</h3>
+        <p>Employees must update their attendance daily.</p>
+    </aside>
+
+</section>
+
+<hr>
+
+<!-- Registration Form -->
+<section id="registration">
+
+    <h2>Student Registration Form</h2>
+
+    <form>
+
+        <fieldset>
+
+            <legend>Personal Details</legend>
+
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter email">
+            <br><br>
+
+            <label>Password:</label>
+            <input type="password" placeholder="Enter Password">
+            <br><br>
+
+            <label>Date of Birth:</label>
+            <input type="date">
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+            <br><br>
+
+            <label>Category:</label>
+
+            <select>
+                <option>Student</option>
+                <option>Employee</option>
+            </select>
+
+            <br><br>
+
+            <label>Address:</label>
+            <textarea rows="3" cols="30"></textarea>
+
+            <br><br>
+
+            <label>Upload Photo:</label>
+            <input type="file">
+
+            <br><br>
+
+            <input type="checkbox"> I agree to the terms and conditions
+
+            <br><br>
+
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+
+        </fieldset>
+
+    </form>
+
+</section>
+
+<hr>
+
+<!-- Description List -->
+<section>
+
+    <h2>Course Information</h2>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+
+        <dt>Java</dt>
+        <dd>Object Oriented Programming Language</dd>
+    </dl>
+
+</section>
+
+<hr>
+
+<!-- University Media -->
+<section>
+
+    <h2>University Media</h2>
+
+    <h3>College Video</h3>
+
+    <video width="500" controls>
+        <source src="college.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+    <h3>College Audio</h3>
+
+    <audio controls>
+        <source src="college.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    <h3>University Website</h3>
+
+    <iframe src="https://www.kluniversity.in"
+            width="800" height="400">
+    </iframe>
+
+</section>
+
+</main>
+
+<hr>
+
+<!-- Footer -->
+<footer>
+
+    <p>Copyright &copy; 2026 KL University</p>
+    <p>Contact: info@university.com</p>
+
+</footer>
+
+</body>
+</html>
